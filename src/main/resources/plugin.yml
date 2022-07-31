@@ -1,0 +1,11 @@
+name: PartiesWarAddon
+version: '${project.version}'
+main: war.addon.Main
+api-version: 1.16
+authors: [ Mornov ]
+description: Parties War Addon
+depend:
+  - Parties
+commands:
+  clanwars:
+    aliases: /cw

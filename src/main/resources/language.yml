@@ -1,0 +1,18 @@
+input-clan-name: "&cPlease input clan names!"
+clan-not-found: "&cClan %clan_name% is not found!"
+clan-is-offline: "&cAll of the clan member is offline!"
+leader-offline: "&cEnemy team leader is offline!"
+player-is-not-in-party: "&cYou are not in party!"
+not-enough-members: "&cOnline members from clan %clan_name% is not enough! Required %require_online_members% Online Members to do Clan Wars!"
+
+clan-wars-send-enemy: "&a%player% leader from %player_clan_name% challenging %enemy_clan_name% to do Clan Wars! That clan has %online_members% Online members!"
+clan-wars-send-player: "&aYou challenging %enemy_clan_name% Clan with %online_members% Online members!"
+clan-wars-accept: "§a%player_clan_name% Clan accepted clan wars from %enemy_clan_name% Clan! All of members will be teleported in %seconds% seconds"
+clan-wars-confirm-message: "/clanwars accept %enemy_clan_name%"
+clan-wars-self: "&cYou can't do wars with your clan!"
+clan-wars-lose: "&cClan %clan_name% lose on Clan Wars"
+clan-wars-win: "&aClan %clan_name% win the Clan Wars"
+
+death-message: "%player% from clan %clan_name% died (%remaining members%)"
+
+teleport-countdown: "&eAll members of clan will be teleported in %seconds%..."

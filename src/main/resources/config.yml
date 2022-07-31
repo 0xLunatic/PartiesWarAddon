@@ -1,0 +1,58 @@
+#Plugin reload message and permission
+reload:
+  reload-permission: "clanwars.reload"
+  reload-message:
+    - "ClanWars Plugin Reloaded"
+
+#Teleport countdown to arena
+teleport-time: 10
+
+#Minimum online members per Clan needed to declare a war!
+minimum-online-members: 5
+
+messages:
+  help-message:
+    - "/clanwars declare <Clan Name>"
+
+##Gives reward to Clan Leader when they're winning the Wars
+sound-manager:
+  clan-win:
+    sound: ENTITY_ENDER_DRAGON_GROWL
+    volume: 100
+    pitch: 1
+  wars-accepted:
+    sound: UI_TOAST_CHALLENGE_COMPLETE
+    volume: 100
+    pitch: 1
+  wars-started:
+    sound: ENTITY_ENDER_DRAGON_GROWL
+    volume: 100
+    pitch: 1
+  wars-invite:
+    sound: ENTITY_WITHER_SHOOT
+    volume: 100
+    pitch: 1
+  teleport-message:
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 100
+    pitch: 1
+  member-death:
+    sound: ENTITY_WOLF_DEATH
+    volume: 100
+    pitch: 1
+
+reward-manager:
+  enabled: true
+  items:
+    END_CRYSTAL:
+      amount: 16
+    GOLDEN_APPLE:
+      amount: 16
+    RESPAWN_ANCHOR:
+      amount: 16
+    OBSIDIAN:
+      amount: 16
+    NETHERITE_INGOT:
+      amount: 6
+    DIAMOND:
+      amount: 12
