@@ -4,8 +4,7 @@ main: war.addon.Main
 api-version: 1.16
 authors: [ Mornov ]
 description: Parties War Addon
-depend:
-  - Parties
+depend: [Parties]
 commands:
   clanwars:
     aliases: /cw
