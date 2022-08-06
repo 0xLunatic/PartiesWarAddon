@@ -12,7 +12,11 @@ clan-wars-confirm-message: "/clanwars accept %enemy_clan_name%"
 clan-wars-self: "&cYou can't do wars with your clan!"
 clan-wars-lose: "&cClan %clan_name% lose on Clan Wars"
 clan-wars-win: "&aClan %clan_name% win the Clan Wars"
+clan-wars-started: "&cThere are already Clan Wars started!"
+clan-wars-cancelled: "&cClan wars cancelled due no player teleported!"
 
-death-message: "%player% from clan %clan_name% died (%remaining members%)"
+death-message: "&d%player% &ffrom clan &a%clan_name% &fdied &7(%remaining members% left)"
+
+inventory-not-empty: "&cYour inventory is not empty!"
 
 teleport-countdown: "&eAll members of clan will be teleported in %seconds%..."
